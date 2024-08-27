@@ -1,7 +1,11 @@
+import { Header } from "../../style/styled";
+import Menu from "../Menu/Menu";
+
 export default function Cabecalho(){
   return(
-    <header>
+    <Header>
       <h1>Cabeçalho</h1>
-    </header>
+      <Menu/>
+    </Header>
   );
 }

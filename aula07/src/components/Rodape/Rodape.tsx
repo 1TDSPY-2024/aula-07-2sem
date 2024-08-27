@@ -1,7 +1,9 @@
+import { Footer } from "../../style/styled";
+
 export default function Rodape(){
     return(
-      <footer>
+      <Footer>
         <h2>Criado por Tiuzinho</h2>
-      </footer>
+      </Footer>
     );
   }
