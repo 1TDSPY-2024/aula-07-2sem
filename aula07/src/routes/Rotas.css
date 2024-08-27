@@ -1,0 +1,9 @@
+h1{
+    background-color: rgb(71, 105, 105);
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    width: 80%;
+    height: 20vh;
+    border: 2px solid rgb(36, 231, 36);
+    color: #fff;
+}

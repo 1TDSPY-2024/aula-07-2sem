@@ -1,6 +1,8 @@
+import { Footer } from "../../style/styled";
+
 export default function Rodape(){
 
     return(
-        <footer>rodape</footer>
+        <Footer><h2>rodape</h2></Footer>
     );
 }
