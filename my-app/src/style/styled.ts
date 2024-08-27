@@ -53,7 +53,10 @@ export const MenuItem = styled.li`
   display: inline;
 `
 
-// Estilizando o item de lista
-export const MenuLink = styled.li`
-  display: inline;
+// Estilizando o item de link
+export const MenuLink = styled.a`
+  color:#fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
 `
