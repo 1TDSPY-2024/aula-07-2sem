@@ -1,3 +1,4 @@
+
 export default function Error(){
   document.title = "ERROR 404";
     return(
