@@ -1,3 +1,5 @@
+document.title = "EditarProdutos"
+
 export default function EditarProdutos () {
     return (
       <div>

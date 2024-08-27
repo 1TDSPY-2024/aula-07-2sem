@@ -8,12 +8,16 @@ import Error from './routes/Error/index.tsx'
 import Home from './routes/Home/index.tsx'
 import Produtos from './routes/Produtos/indesx.tsx'
 
-const routes = createBrowserRouter({
-  {path:,element:,errorElement:,children:[]}
-})
+const routes = createBrowserRouter([
+  {path:"/",element:<App/>,errorElement:<Error/>,children:[
+    {path:"/",element:<Home/>},
+    {path:"/produtos",element:<Produtos/>},
+    {path:"/editar/produtos/:id",element:<EditarProdutos/>},
+  ]}
+])
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={routes}/>
   </StrictMode>,
 )

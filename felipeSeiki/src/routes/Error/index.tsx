@@ -1,3 +1,5 @@
+document.title = "Error 404"
+
 export default function Error () {
     return (
       <div>
