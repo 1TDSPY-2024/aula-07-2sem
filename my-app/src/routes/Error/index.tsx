@@ -1,3 +1,6 @@
+
+
+
 export default function Error(){
 
   document.title="Error"

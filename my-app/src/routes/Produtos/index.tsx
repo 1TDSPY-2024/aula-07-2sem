@@ -1,3 +1,4 @@
+
 export default function Produtos(){
 
     document.title="Produtos"
@@ -8,4 +9,4 @@ export default function Produtos(){
         </h1>
       </div>
     )
-  }
+}
