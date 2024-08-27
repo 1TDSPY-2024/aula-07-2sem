@@ -1,5 +1,9 @@
 export default function Produtos(){
+    document.title= "Produtos";
     return(
-        <div>Produtos</div>
+       
+        <div> 
+            <title>Produtos</title>
+        </div>
     );
 }

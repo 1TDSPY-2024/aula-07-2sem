@@ -20,8 +20,11 @@ const routes = createBrowserRouter([
 
 ])
 
+//chamando classe routerPRovider e colocando o valor do metodo router igual a nossa constante
+//com os caminhos
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <App />
+    <RouterProvider router={routes}/>
   </StrictMode>,
 )
